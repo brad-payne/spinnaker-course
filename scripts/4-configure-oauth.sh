@@ -4,7 +4,7 @@
 CLIENT_ID=1016e984d98ceec66b75
 CLIENT_SECRET=e08fd23912dadd4ef15b0ce8f58df0a1219a1ae7
 PROVIDER=github
-REDIRECT_URI=http://ip:8084/login
+REDIRECT_URI=http://71.143.159.130:8084/login
 
 set -e
 
