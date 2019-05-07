@@ -4,7 +4,7 @@
 CLIENT_ID=1016e984d98ceec66b75
 CLIENT_SECRET=e08fd23912dadd4ef15b0ce8f58df0a1219a1ae7
 PROVIDER=github
-REDIRECT_URI=http://71.143.159.130:8084/login
+REDIRECT_URI=http://spinnaker.bradpayne.org:8084/login
 
 set -e
 
@@ -25,8 +25,8 @@ if [ -z "${REDIRECT_URI}" ] ; then
   exit
 fi
 
-MY_IP=`curl -s ifconfig.co`
-
+#MY_IP=`curl -s ifconfig.co`
+MY_IP="spinnaker.bradpayne.org"
 hal config security authn oauth2 edit \
   --client-id $CLIENT_ID \
   --client-secret $CLIENT_SECRET \

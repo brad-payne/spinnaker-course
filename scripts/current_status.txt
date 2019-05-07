@@ -1,0 +1,8 @@
+installed on spinnaker-16.homebase.local using these scripts on Ubuntu 16.04.
+
+the only thing that has to change is the fqdn's and records in the appropriate zones:
+	- spinnaker.bradpayne.org
+
+and make the appropriate firewall updates. 
+
+
